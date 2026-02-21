@@ -1,7 +1,7 @@
 {
   "$schema": "./.github/schema/tag_formats.schema.json",
-  "version": "1.0.0",
-  "tag_formats": [
+  "version": "1.0.1",
+    "tag_formats": [
     {
       "name": "default",
       "rules": []
@@ -19,7 +19,7 @@
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
-            "history_trail_line": false,
+            "history_trail_symbol": "circle",
             "track_symbol_subtext": "S",
             "foreground_color": "#E39D9D",
             "background_color": "#E39D9D"
@@ -44,7 +44,7 @@
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
-            "history_trail_line": false,
+            "history_trail_symbol": "circle",
             "track_symbol_subtext": "N",
             "foreground_color": "#E3B8CB",
             "background_color": "#B08E9D"
@@ -68,7 +68,7 @@
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
-            "history_trail_line": false,
+            "history_trail_symbol": "circle",
             "track_symbol_subtext": "",
             "foreground_color": "#A1E3E3",
             "background_color": "#587D7D"
@@ -91,7 +91,7 @@
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
-            "history_trail_line": false,
+            "history_trail_symbol": "circle",
             "track_symbol_subtext": "O",
             "foreground_color": "#E3B17C",
             "background_color": "#B08960"
@@ -115,7 +115,7 @@
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
-            "history_trail_line": false,
+            "history_trail_symbol": "circle",
             "track_symbol_subtext": "PB",
             "foreground_color": "#A1E3E3",
             "background_color": "#587D7D"
@@ -139,7 +139,7 @@
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
-            "history_trail_line": false,
+            "history_trail_symbol": "circle",
             "track_symbol_subtext": "PB",
             "foreground_color": "#D396E3",
             "background_color": "#A374B0"
@@ -158,7 +158,7 @@
           "name": "Z",
           "conditions": { "isVFR": true},
           "priority": 4,
-          "filtered": false,
+          "filtered": true,
           "style": {
             "field_highlight_color": "#BDA5D7",
             "hovered_field_color": "#6A6A6A",
@@ -166,7 +166,7 @@
             "draw_hovered_field": true,
             "track_symbol": "circle",
             "track_symbol_fill": true,
-            "history_trail_line": false,
+            "history_trail_symbol": "circle",
             "track_symbol_subtext": "Z",
             "foreground_color": "#000000",
             "background_color": "#000000"
@@ -184,7 +184,7 @@
             "draw_hovered_field": true,
             "track_symbol": "circle",
             "track_symbol_fill": true,
-            "history_trail_line": false,
+            "history_trail_symbol": "circle",
             "track_symbol_subtext": "X",
             "foreground_color": "#000000",
             "background_color": "#000000"
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "name": "IRMA2",
+      "name": "IRMA",
       "global_settings": {},
       "rules": [
         {
@@ -205,7 +205,7 @@
           "style": {
             "track_symbol": "triangle",
             "track_symbol_fill": false,
-            "history_trail_line": false,
+            "history_trail_symbol": "dots",
             "track_symbol_subtext": "",
             "foreground_color": "#D597A3",
             "background_color": "#A2727B"
@@ -229,7 +229,7 @@
           "style": {
             "track_symbol": "triangle",
             "track_symbol_fill": false,
-            "history_trail_line": false,
+            "history_trail_symbol": "dots",
             "track_symbol_subtext": "",
             "foreground_color": "#63BBD9",
             "background_color": "#4B8FA5"
