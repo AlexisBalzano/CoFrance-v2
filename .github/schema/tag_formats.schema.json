@@ -121,13 +121,18 @@
                       "oneOf": [{ "type": "string" }, { "type": "number" }]
                     },
                     "track_symbol": {
-                      "description": "Parsed by ParseTrackSymbol; may be string or object depending on implementation",
+                      "description": "Track Symbol drawn as primary track",
                       "oneOf": [{ 
                           "enum": ["square","circle","triangle","diamond","cross","invertedtriangle"]
                       }]
                     },
                     "track_symbol_fill": { "type": "boolean" },
-                    "history_trail_line": { "type": "boolean" },
+                    "history_trail_symbol": {
+                      "description": "History trail symbol drawn for each historical position",
+                      "oneOf": [{ 
+                          "enum": ["circle", "dots", "line"]
+                      }]
+                    },
                     "track_symbol_subtext": {
                         "type": "string",
                         "pattern": "^[A-Z0-9]{0,4}$"
