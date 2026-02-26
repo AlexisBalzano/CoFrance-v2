@@ -13,8 +13,7 @@
         "monitoring_zones.geojson_version",
         "tag_formats.json_version",
         "predefined_holds.json_version",
-        "intention_codes.json_version",
-        "sequencer.json_version"
+        "intention_codes.json_version"
     ],
     "properties": {
         "$schema": {
