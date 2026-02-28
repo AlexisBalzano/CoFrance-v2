@@ -1,6 +1,6 @@
 {
   "$schema": "./.github/schema/tag_formats.schema.json",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "tag_formats": [
     {
       "name": "default",
