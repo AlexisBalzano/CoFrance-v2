@@ -1,5 +1,5 @@
 {
-  "$schema": "../.github/schema/sector_levels.schema.json",
+  "$schema": "https://raw.githubusercontent.com/alexisBalzano/CoFrance-config-files/main/.github/schema/sector_levels.schema.json",
   "type": "FeatureCollection",
   "name": "sector_levels",
   "version": "1.0.2",
