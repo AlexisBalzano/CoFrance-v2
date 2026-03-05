@@ -1158,9 +1158,9 @@
         {
           "name": "IFR",
           "conditions": {
-            "isVFR": false,
-            "flightState": ["ASSUMED", "TRANSFERREDOUT"]
+            "isVFR": false
           },
+          "flightstate": ["assumed", "transferredout"],
           "priority": 5,
           "filtered": true,
           "style": {
@@ -1181,7 +1181,7 @@
           "conditions": {
             "isVFR": false
           },
-          "priority": 5,
+          "priority": 6,
           "filtered": true,
           "style": {
             "field_highlight_color": "#BDA5D7",
@@ -1201,7 +1201,7 @@
           "conditions": {
             "isVFR": true
           },
-          "priority": 5,
+          "priority": 6,
           "filtered": true,
           "style": {
             "field_highlight_color": "#BDA5D7",
@@ -1565,35 +1565,6 @@
             "track_symbol_subtext": "",
             "foreground_color": "#0cc665",
             "background_color": "#07793d"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "deprwy",
-              "sid",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -1613,35 +1584,6 @@
             "track_symbol_subtext": "U",
             "foreground_color": "#2baf11",
             "background_color": "#186209"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "deprwy",
-              "sid",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -1661,35 +1603,6 @@
             "track_symbol_subtext": "Y",
             "foreground_color": "#2baf11",
             "background_color": "#186209"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "deprwy",
-              "sid",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -1710,35 +1623,6 @@
             "track_symbol_subtext": "B",
             "foreground_color": "#2baf11",
             "background_color": "#186209"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "deprwy",
-              "sid",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -1758,35 +1642,6 @@
             "track_symbol_subtext": "S",
             "foreground_color": "#2baf11",
             "background_color": "#186209"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "deprwy",
-              "sid",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -1806,35 +1661,6 @@
             "track_symbol_subtext": "",
             "foreground_color": "#cc787f",
             "background_color": "#995a5f"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "trans",
-              "arrrwy",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -1854,35 +1680,6 @@
             "track_symbol_subtext": "Y",
             "foreground_color": "#c4779e",
             "background_color": "#915874"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "trans",
-              "arrrwy",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -1903,35 +1700,6 @@
             "track_symbol_subtext": "B",
             "foreground_color": "#c4779e",
             "background_color": "#915874"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "trans",
-              "arrrwy",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -1951,35 +1719,6 @@
             "track_symbol_subtext": "S",
             "foreground_color": "#c4779e",
             "background_color": "#915874"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "trans",
-              "arrrwy",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -1996,35 +1735,6 @@
             "track_symbol_subtext": "",
             "foreground_color": "#00adbc",
             "background_color": "#007e89"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "trans",
-              "arrrwy",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -2044,35 +1754,6 @@
             "track_symbol_subtext": "",
             "foreground_color": "#9187c1",
             "background_color": "#6a638e"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "trans",
-              "arrrwy",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         },
         {
@@ -2089,35 +1770,6 @@
             "track_symbol_subtext": "",
             "foreground_color": "#a99200",
             "background_color": "#756500"
-          },
-          "taglayouts": {
-            "extended_layout": [
-              "vspace",
-              "modeshdg",
-              "modesspd",
-              "modesmach",
-              "modessfl",
-              "\n",
-              "vspace",
-              "adep",
-              "ades",
-              "trans",
-              "arrrwy",
-              "\n",
-              "cr",
-              "align_right",
-              "nsfreq",
-              "\n",
-              "optext",
-              "align_right",
-              "afk",
-              "\n",
-              "vspace",
-              "traj",
-              "info",
-              "id",
-              "misc"
-            ]
           }
         }
       ]
