@@ -1423,7 +1423,7 @@
           "conditions": {
             "isArrival": true,
             "airports": [
-              "LFTH"
+              "LFMC"
             ]
           },
           "priority": 1,
