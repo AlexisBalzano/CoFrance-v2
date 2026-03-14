@@ -177,11 +177,6 @@
           "LFPN"
         ]
       },
-      "GIM": {
-        "waypoint": [
-          "GIMER"
-        ]
-      },
       "KOV": {
         "waypoint": [
           "KOVIN"
@@ -299,6 +294,11 @@
       "TPR": {
         "waypoint": [
           "TEPRI"
+        ]
+      },
+      "GIM": {
+        "waypoint": [
+          "GIMER"
         ]
       }
     }
