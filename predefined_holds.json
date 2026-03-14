@@ -68,7 +68,7 @@
     },
     "NERAS": {
       "upperfl": 140,
-      "lowerfl": 3000
+      "lowerfl": 30
     },
     "MUS": {
       "upperfl": 140,
@@ -110,7 +110,7 @@
   "LFMN_": {
     "NERAS": {
       "upperfl": 140,
-      "lowerfl": 3000
+      "lowerfl": 30
     },
     "MUS": {
       "upperfl": 140,
