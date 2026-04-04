@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/alexisBalzano/CoFrance-config-files/main/.github/schema/tma_filters.schema.json",
   "type": "FeatureCollection",
   "name": "pintade_aoi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "crs": {
     "type": "name",
     "properties": {
@@ -352,6 +352,58 @@
           [
             0.37915027777778,
             51.007479444444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BARCELONA_TMA",
+        "upper_altitude": 20000,
+        "lower_altitude": 0,
+        "floor_altitude": 10000,
+        "origin_airports": [],
+        "destination_airports": [
+          "LEBL"
+        ]
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            0.96759638888889,
+            42.103628055556
+          ],
+          [
+            2.7300277777778,
+            40.431311388889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BARCELONA_DEP_TMA",
+        "upper_altitude": 20000,
+        "lower_altitude": 0,
+        "floor_altitude": 10000,
+        "origin_airports": [
+          "LEBL"
+        ],
+        "destination_airports": []
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            0.96759638888889,
+            42.103628055556
+          ],
+          [
+            2.7300277777778,
+            40.431311388889
           ]
         ]
       }
