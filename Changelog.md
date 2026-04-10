@@ -1,4 +1,4 @@
-# CoFrance v2.1.0 Changelog
+# CoFrance v2.1.1 Changelog
 
 ### Improvements
 - Removed persistence logs
@@ -20,3 +20,4 @@
 - Fixed Contactme being available on assumed aircraft instead of Transfer In aircrafts
 - Fixed Contextual filter blinking when using CTRL as modifier key
 - Removed predicted EOD/TOD/TOC/EOC
+- Fixed CoFrance_preferenc.toml being saved at root instead of config
