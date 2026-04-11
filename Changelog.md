@@ -1,4 +1,19 @@
-# CoFrance v2.1.2 Changelog
+# CoFrance v2.1.4 Changelog
+
+### Improvements
+- Improved minimized tag placement
+- Improved Tag Anti-overlap
+- Window position & visibility now reloaded when switching settings
+
+### Additions
+- Added persistence to Flight Group Filter window position/state
+
+### Fixes
+- Fixed Side Menu window not opening correctly if side menu on 2nd screen
+- Fixed lists not opening correctly on 2nd screen
+
+
+# CoFrance v2.1.3 Changelog
 
 ### Fixes
 - Recompiled Binary
