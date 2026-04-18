@@ -3,6 +3,7 @@
 ### Improvements
 - Further improvements on tag Anti-Overlap
 - REL notification now auto acknowledge 10 seconds after accepted transfer
+- Added sound to ASPD & AHDG coordinations
 
 ### Additions
 - Added ASPD & AHDG coordination
