@@ -1,3 +1,20 @@
+# CoFrance v2.1.8 Changelog
+
+### Improvements
+- Modified Clean Speed Tag representation
+- Anti alliased Multi lines and lines in Maps
+
+### Additions
+- Added RECAT-EU categories option
+- Added Frequency List
+- Added Unlimited list max entries option 
+- Added number of ring parameter to .ring command
+
+### Fixes
+- Fixed Auto Flight Leg not showing on Transfer In flights
+- Fixed ECFMP API connection issues
+
+
 # CoFrance v2.1.7 Changelog
 
 ### Additions

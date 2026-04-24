@@ -1,0 +1,555 @@
+{
+  "$schema": "../.github/schema/aircrafts.schema.json",
+  "A320": {
+    "RECAT": "K"
+  },
+  "A388": {
+    "RECAT": "S"
+  },
+  "A225": {
+    "RECAT": "S"
+  },
+  "A359": {
+    "RECAT": "G"
+  },
+  "A35K": {
+    "RECAT": "G"
+  },
+  "A345": {
+    "RECAT": "G"
+  },
+  "A346": {
+    "RECAT": "G"
+  },
+  "A339": {
+    "RECAT": "G"
+  },
+  "B741": {
+    "RECAT": "G"
+  },
+  "B742": {
+    "RECAT": "G"
+  },
+  "B743": {
+    "RECAT": "G"
+  },
+  "B744": {
+    "RECAT": "G"
+  },
+  "B748": {
+    "RECAT": "G"
+  },
+  "B74S": {
+    "RECAT": "G"
+  },
+  "BLCF": {
+    "RECAT": "G"
+  },
+  "B772": {
+    "RECAT": "G"
+  },
+  "B773": {
+    "RECAT": "G"
+  },
+  "B77L": {
+    "RECAT": "G"
+  },
+  "B77W": {
+    "RECAT": "G"
+  },
+  "B77F": {
+    "RECAT": "G"
+  },
+  "B778": {
+    "RECAT": "G"
+  },
+  "B779": {
+    "RECAT": "G"
+  },
+  "B788": {
+    "RECAT": "G"
+  },
+  "B789": {
+    "RECAT": "G"
+  },
+  "B78X": {
+    "RECAT": "G"
+  },
+  "C5M": {
+    "RECAT": "G"
+  },
+  "A124": {
+    "RECAT": "G"
+  },
+  "A332": {
+    "RECAT": "H"
+  },
+  "A333": {
+    "RECAT": "H"
+  },
+  "A338": {
+    "RECAT": "H"
+  },
+  "A342": {
+    "RECAT": "H"
+  },
+  "A343": {
+    "RECAT": "H"
+  },
+  "A306": {
+    "RECAT": "H"
+  },
+  "A30B": {
+    "RECAT": "H"
+  },
+  "A310": {
+    "RECAT": "H"
+  },
+  "A3ST": {
+    "RECAT": "H"
+  },
+  "A337": {
+    "RECAT": "H"
+  },
+  "A400": {
+    "RECAT": "H"
+  },
+  "B762": {
+    "RECAT": "H"
+  },
+  "B763": {
+    "RECAT": "H"
+  },
+  "B764": {
+    "RECAT": "H"
+  },
+  "KC46": {
+    "RECAT": "H"
+  },
+  "E767": {
+    "RECAT": "H"
+  },
+  "DC10": {
+    "RECAT": "H"
+  },
+  "MD11": {
+    "RECAT": "H"
+  },
+  "C17": {
+    "RECAT": "H"
+  },
+  "IL76": {
+    "RECAT": "H"
+  },
+  "IL96": {
+    "RECAT": "H"
+  },
+  "K35R": {
+    "RECAT": "H"
+  },
+  "K10T": {
+    "RECAT": "H"
+  },
+  "E3TF": {
+    "RECAT": "H"
+  },
+  "B752": {
+    "RECAT": "K"
+  },
+  "B753": {
+    "RECAT": "K"
+  },
+  "A318": {
+    "RECAT": "K"
+  },
+  "A319": {
+    "RECAT": "K"
+  },
+  "A321": {
+    "RECAT": "K"
+  },
+  "A19N": {
+    "RECAT": "K"
+  },
+  "A20N": {
+    "RECAT": "K"
+  },
+  "A21N": {
+    "RECAT": "K"
+  },
+  "A21X": {
+    "RECAT": "K"
+  },
+  "B732": {
+    "RECAT": "K"
+  },
+  "B733": {
+    "RECAT": "K"
+  },
+  "B734": {
+    "RECAT": "K"
+  },
+  "B735": {
+    "RECAT": "K"
+  },
+  "B736": {
+    "RECAT": "K"
+  },
+  "B737": {
+    "RECAT": "K"
+  },
+  "B738": {
+    "RECAT": "K"
+  },
+  "B739": {
+    "RECAT": "K"
+  },
+  "B37M": {
+    "RECAT": "K"
+  },
+  "B38M": {
+    "RECAT": "K"
+  },
+  "B39M": {
+    "RECAT": "K"
+  },
+  "B3XM": {
+    "RECAT": "K"
+  },
+  "P8": {
+    "RECAT": "K"
+  },
+  "MD80": {
+    "RECAT": "K"
+  },
+  "MD81": {
+    "RECAT": "K"
+  },
+  "MD82": {
+    "RECAT": "K"
+  },
+  "MD83": {
+    "RECAT": "K"
+  },
+  "MD88": {
+    "RECAT": "K"
+  },
+  "MD90": {
+    "RECAT": "K"
+  },
+  "B712": {
+    "RECAT": "K"
+  },
+  "T204": {
+    "RECAT": "K"
+  },
+  "C130": {
+    "RECAT": "K"
+  },
+  "L100": {
+    "RECAT": "K"
+  },
+  "C30J": {
+    "RECAT": "K"
+  },
+  "BCS1": {
+    "RECAT": "M"
+  },
+  "BCS3": {
+    "RECAT": "M"
+  },
+  "A221": {
+    "RECAT": "M"
+  },
+  "A223": {
+    "RECAT": "M"
+  },
+  "E170": {
+    "RECAT": "M"
+  },
+  "E175": {
+    "RECAT": "M"
+  },
+  "E190": {
+    "RECAT": "M"
+  },
+  "E195": {
+    "RECAT": "M"
+  },
+  "E290": {
+    "RECAT": "M"
+  },
+  "E295": {
+    "RECAT": "M"
+  },
+  "E135": {
+    "RECAT": "M"
+  },
+  "E145": {
+    "RECAT": "M"
+  },
+  "E14X": {
+    "RECAT": "M"
+  },
+  "CRJ1": {
+    "RECAT": "M"
+  },
+  "CRJ2": {
+    "RECAT": "M"
+  },
+  "CRJ7": {
+    "RECAT": "M"
+  },
+  "CRJ9": {
+    "RECAT": "M"
+  },
+  "CRJX": {
+    "RECAT": "M"
+  },
+  "F70": {
+    "RECAT": "M"
+  },
+  "F100": {
+    "RECAT": "M"
+  },
+  "RJ85": {
+    "RECAT": "M"
+  },
+  "RJ1H": {
+    "RECAT": "M"
+  },
+  "BA46": {
+    "RECAT": "M"
+  },
+  "DH8A": {
+    "RECAT": "M"
+  },
+  "DH8B": {
+    "RECAT": "M"
+  },
+  "DH8C": {
+    "RECAT": "M"
+  },
+  "DH8D": {
+    "RECAT": "M"
+  },
+  "AT43": {
+    "RECAT": "M"
+  },
+  "AT45": {
+    "RECAT": "M"
+  },
+  "AT46": {
+    "RECAT": "M"
+  },
+  "AT72": {
+    "RECAT": "M"
+  },
+  "AT73": {
+    "RECAT": "M"
+  },
+  "AT75": {
+    "RECAT": "M"
+  },
+  "AT76": {
+    "RECAT": "M"
+  },
+  "SB20": {
+    "RECAT": "M"
+  },
+  "CL2T": {
+    "RECAT": "M"
+  },
+  "CL41": {
+    "RECAT": "M"
+  },
+  "GLF4": {
+    "RECAT": "M"
+  },
+  "GLF5": {
+    "RECAT": "M"
+  },
+  "GLF6": {
+    "RECAT": "M"
+  },
+  "GLEX": {
+    "RECAT": "M"
+  },
+  "GL5T": {
+    "RECAT": "M"
+  },
+  "GL7T": {
+    "RECAT": "M"
+  },
+  "FA7X": {
+    "RECAT": "M"
+  },
+  "FA8X": {
+    "RECAT": "M"
+  },
+  "CL60": {
+    "RECAT": "M"
+  },
+  "CL30": {
+    "RECAT": "M"
+  },
+  "CL35": {
+    "RECAT": "M"
+  },
+  "C750": {
+    "RECAT": "M"
+  },
+  "RFAL": {
+    "RECAT": "M"
+  },
+  "EUFI": {
+    "RECAT": "M"
+  },
+  "C150": {
+    "RECAT": "L"
+  },
+  "C152": {
+    "RECAT": "L"
+  },
+  "C172": {
+    "RECAT": "L"
+  },
+  "C182": {
+    "RECAT": "L"
+  },
+  "C206": {
+    "RECAT": "L"
+  },
+  "C208": {
+    "RECAT": "L"
+  },
+  "PA28": {
+    "RECAT": "L"
+  },
+  "PA32": {
+    "RECAT": "L"
+  },
+  "PA34": {
+    "RECAT": "L"
+  },
+  "PA44": {
+    "RECAT": "L"
+  },
+  "SR20": {
+    "RECAT": "L"
+  },
+  "SR22": {
+    "RECAT": "L"
+  },
+  "SF50": {
+    "RECAT": "L"
+  },
+  "DA20": {
+    "RECAT": "L"
+  },
+  "DA40": {
+    "RECAT": "L"
+  },
+  "DA42": {
+    "RECAT": "L"
+  },
+  "DA62": {
+    "RECAT": "L"
+  },
+  "TBM7": {
+    "RECAT": "L"
+  },
+  "TBM8": {
+    "RECAT": "L"
+  },
+  "TBM9": {
+    "RECAT": "L"
+  },
+  "PC12": {
+    "RECAT": "L"
+  },
+  "PC24": {
+    "RECAT": "L"
+  },
+  "BE36": {
+    "RECAT": "L"
+  },
+  "BE58": {
+    "RECAT": "L"
+  },
+  "BE9L": {
+    "RECAT": "L"
+  },
+  "BE20": {
+    "RECAT": "L"
+  },
+  "BE30": {
+    "RECAT": "L"
+  },
+  "BE35": {
+    "RECAT": "L"
+  },
+  "C510": {
+    "RECAT": "L"
+  },
+  "C525": {
+    "RECAT": "L"
+  },
+  "C25A": {
+    "RECAT": "L"
+  },
+  "C25B": {
+    "RECAT": "L"
+  },
+  "C25C": {
+    "RECAT": "L"
+  },
+  "C550": {
+    "RECAT": "L"
+  },
+  "C560": {
+    "RECAT": "L"
+  },
+  "C56X": {
+    "RECAT": "L"
+  },
+  "C680": {
+    "RECAT": "L"
+  },
+  "E50P": {
+    "RECAT": "L"
+  },
+  "E55P": {
+    "RECAT": "L"
+  },
+  "LJ35": {
+    "RECAT": "L"
+  },
+  "LJ45": {
+    "RECAT": "L"
+  },
+  "LJ60": {
+    "RECAT": "L"
+  },
+  "LJ75": {
+    "RECAT": "L"
+  },
+  "H25B": {
+    "RECAT": "L"
+  },
+  "P28A": {
+    "RECAT": "L"
+  },
+  "P28R": {
+    "RECAT": "L"
+  },
+  "P28T": {
+    "RECAT": "L"
+  },
+  "M20P": {
+    "RECAT": "L"
+  },
+  "M20T": {
+    "RECAT": "L"
+  }
+}
