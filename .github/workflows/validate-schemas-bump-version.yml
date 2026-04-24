@@ -144,22 +144,6 @@ jobs:
 
           bumped=false
 
-          bump_custom() {
-            local v="$1"
-            IFS='.' read -r major minor patch <<< "$v"
-            major=${major:-0}; minor=${minor:-0}; patch=${patch:-0}
-            patch=$((patch + 1))
-            if [ "$patch" -ge 10 ]; then
-              patch=0
-              minor=$((minor + 1))
-            fi
-            if [ "$minor" -ge 10 ]; then
-              minor=0
-              major=$((major + 1))
-            fi
-            echo "${major}.${minor}.${patch}"
-          }
-
           # Ensure version.json exists
           if [ ! -f "$VERSION_FILE" ]; then
             echo "version.json not found in repo root. Exiting." >&2
@@ -182,44 +166,6 @@ jobs:
               bumped=true
             else
               echo "No $key in $VERSION_FILE, skipping bump there."
-            fi
-
-            # Also attempt to bump an internal version inside the modified file itself.
-            # For JSON-like files (.json, .geojson) try keys: "version" then "$key".
-            lowerpath=$(echo "$path" | tr '[:upper:]' '[:lower:]')
-            if [[ "$lowerpath" == *.json ]] || [[ "$lowerpath" == *.geojson ]]; then
-              # Try 'version' key
-              if jq -e 'has("version")' "$path" >/dev/null 2>&1; then
-                oldv=$(jq -r '.version' "$path")
-                newv=$(bump_custom "$oldv")
-                echo "Bumping 'version' in $path: $oldv -> $newv"
-                tmp=$(mktemp)
-                jq --arg v "$newv" '.version=$v' "$path" > "$tmp" && mv "$tmp" "$path"
-                bumped=true
-              elif jq -e --arg k "$key" 'has($k)' "$path" >/dev/null 2>&1; then
-                oldv=$(jq -r --arg k "$key" '.[$k]' "$path")
-                newv=$(bump_custom "$oldv")
-                echo "Bumping '$key' in $path: $oldv -> $newv"
-                tmp=$(mktemp)
-                jq --arg k "$key" --arg v "$newv" '.[$k]=$v' "$path" > "$tmp" && mv "$tmp" "$path"
-                bumped=true
-              else
-                echo "No 'version' or '$key' in $path to bump."
-              fi
-
-            elif [[ "$lowerpath" == *.toml ]]; then
-              # For TOML, look for a top-level version = "x.y.z"
-              if grep -qE '^\s*version\s*=\s*"[0-9]+\.[0-9]+\.[0-9]+"' "$path"; then
-                oldv=$(grep -E '^\s*version\s*=\s*"[0-9]+\.[0-9]+\.[0-9]+"' "$path" | head -n1 | sed -E 's/.*"([0-9]+\.[0-9]+\.[0-9]+)".*/\1/')
-                newv=$(bump_custom "$oldv")
-                echo "Bumping TOML version in $path: $oldv -> $newv"
-                sed -E -i "0,/^\s*version\s*=\s*\"[0-9]+\.[0-9]+\.[0-9]+\"/s//version = \"$newv\"/" "$path"
-                bumped=true
-              else
-                echo "No TOML 'version' key found in $path."
-              fi
-            else
-              echo "File $path not JSON/TOML — skipping internal file bump."
             fi
 
           done < "$CHANGED"
