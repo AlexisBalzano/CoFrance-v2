@@ -11,36 +11,55 @@
             "Trajectoires_UIR"
         ],
         "LFOB": [
-            "0_CCA_Beauvais",
-            "1_CCA_Beauvais_ARP_Names",
-            "1_CCA_Beauvais_FIX_Names",
-            "1_CCA_Beauvais_VOR_Names",
-            "2_CCA_Beauvais_Procedures",
-            "3_CCA_Beauvais_VFR",
-            "4_CCA_Beauvais_MVA"
+            "0_CCA_Paris-Beauvais",
+            "1_CCA_Paris-Beauvais_MVA",
+            "3_CCA_Paris-Beauvais_IFR_FIX_Names",
+            "3_CCA_Paris-Beauvais_Navaid_Names",
+            "4_CCA_Paris-Beauvais_VFR_ARPs",
+            "4_CCA_Paris-Beauvais_VFR_Point_Names"
         ],
         "LFPG": [
-            "Carte_WL",
-            "Carte_EL",
-            "0_Fond_EGA"
+            "0_EGA_Paris",
+            "1_EGA_Paris-BVA_MVA",
+            "1_EGA_Paris-CDG_AMG",
+            "1_EGA_Paris-ORY_AMG",
+            "2.1_EGA_Paris-CDG-Trackmiles-Procedures",
+            "2.2_EGA_Paris-CDG-Night-Procedures",
+            "2.3_EGA_Paris-Satellite-Procedures",
+            "3_EGA_Paris_IFR_FIX_Names",
+            "3_EGA_Paris_Navaids_Names",
+            "4_EGA_Paris_VFR_ARPs",
+            "4_EGA_Paris_VFR_Point_Names",
+            "5_EGA_Paris_ACC_Sector_Frequencies"
         ],
         "LFPM": [
             "0_CCA_Seine",
-            "1_CCA_Seine_EGA_Limits",
-            "1_CCA_Seine_VFR",
-            "2_CCA_Seine_AMG"
+            "1_CCA_Seine_AMG",
+            "2_CCA_Seine_Procedures",
+            "2.1_CCA_Seine_Paris_TMA",
+            "3_CCA_Seine_Navaids_Names",
+            "3_CCA_Seine_IFR_FIX_Names",
+            "4_CCA_Seine_VFR_ARPs",
+            "4_CCA_Seine_VFR_Point_Names"
         ],
         "LFPO": [
-            "0_EGA_Paris_Orly",
-            "1_EGA_Paris_Orly_EL",
-            "1_EGA_Paris_Orly_WL",
-            "2_EGA_Paris_Orly_IPGW",
-            "2_EGA_Paris_Orly_IPOW"
+            "0_CCA_Paris-Orly",
+            "1_CCA_Paris-Orly_AMG",
+            "2.1_CCA_Paris-Orly_RWY25_Sequencing",
+            "2.2_CCA_Paris-Orly_Satellite_Procedures",
+            "3_CCA_Paris-Orly_IFR_FIX_Names",
+            "3_CCA_Paris-Orly_Navaids_Names",
+            "4_CCA_Paris-Orly_VFR_ARPs",
+            "4_CCA_Paris-Orly_VFR_Point_Names"
         ],
         "LFQQ": [
             "0_CCA_Lille",
-            "1_CCA_Lille_VFR",
-            "2_CCA_Lille_MVA"
+            "1_CCA_Lille_MVA",
+            "2_CCA_Lille_Procedures",
+            "3_CCA_Lille_IFR_FIX_Names",
+            "3_CCA_Lille_Navaids_Names",
+            "4_CCA_Lille_VFR_ARPs",
+            "4_CCA_Lille_VFR_Point_Names"
         ]
     },
     "LFEE": {
