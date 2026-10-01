@@ -33,7 +33,7 @@
 {"type":"Feature","properties":{"name":"LFPP","pointStyle":{"type":"aerodrome_paved_ticks","color":[232,232,232]}},"geometry":{"type":"MultiPoint","coordinates":[[2.736944,49.109167]]}},
 {"type":"Feature","properties":{"name":"LFOB","pointStyle":{"type":"aerodrome_paved_ticks","color":[232,232,232]}},"geometry":{"type":"MultiPoint","coordinates":[[2.112778,49.454444]]}},
 {"type":"Feature","properties":{"name":"LFJS","pointStyle":{"type":"aerodrome_ticks","color":[232,232,232]}},"geometry":{"type":"MultiPoint","coordinates":[[3.283056,49.345]]}},
-{"type":"Feature","properties":{"name":"LFPK","pointStyle":{"type":"aerodrome_paved_ticks","color":[232,232,232]}},"geometry":{"type":"MultiPoint","coordinates":[[3.014444,48.8375]]}},
+{"type":"Feature","properties":{"name":"LFOK","pointStyle":{"type":"aerodrome_paved_ticks","color":[232,232,232]}},"geometry":{"type":"MultiPoint","coordinates":[[3.014444,48.8375]]}},
 {"type":"Feature","properties":{"name":"LFPQ","pointStyle":{"type":"aerodrome_paved_ticks","color":[232,232,232]}},"geometry":{"type":"MultiPoint","coordinates":[[2.903333,48.706389]]}},
 {"type":"Feature","properties":{"name":"LFAI","pointStyle":{"type":"aerodrome_paved_ticks","color":[232,232,232]}},"geometry":{"type":"MultiPoint","coordinates":[[3.008056,48.596944]]}},
 {"type":"Feature","properties":{"name":"LFPM","pointStyle":{"type":"aerodrome_paved_ticks","color":[232,232,232]}},"geometry":{"type":"MultiPoint","coordinates":[[2.670833,48.605278]]}},
